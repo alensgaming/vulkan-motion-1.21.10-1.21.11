@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.wavy.motionblur.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinGameRenderer",
+    "PostChainAccessor",
+    "PostPassAccessor",
+    "ShaderManagerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
